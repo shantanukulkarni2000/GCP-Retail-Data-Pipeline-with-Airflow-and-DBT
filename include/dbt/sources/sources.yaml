@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: retail
+    database: ${BIGQUERY_PROJECT_ID}
+    tables:
+      - name: raw_invoices
+      - name: country
