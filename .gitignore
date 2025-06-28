@@ -13,4 +13,5 @@ requirements.txt
 *.pyc
 **/dbt_packages/
 **/__pycache__/
-
+Dockerfile
+.dockerignore
